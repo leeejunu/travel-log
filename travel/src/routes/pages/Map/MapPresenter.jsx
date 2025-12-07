@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Map, Polyline, CustomOverlayMap } from "react-kakao-maps-sdk";
 import { useNavigate } from "react-router-dom";
-import { Header } from "../../components/Header";
+
 
 const MapPresenter = () => {
     const [keyword, setKeyword] = useState("");
@@ -138,8 +138,6 @@ const MapPresenter = () => {
 
     return (
         <>
-            <Header />
-
             <div className="w-full h-screen flex relative overflow-hidden">
 
                 {/* 메인으로 */}
