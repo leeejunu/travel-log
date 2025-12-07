@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* reset 또는 font 설정 */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, BlinkMacSystemFont, 'Segoe UI';
+}
